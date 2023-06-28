@@ -1,0 +1,117 @@
+@media screen and (max-width: 1139px) {
+    .header-container {
+        padding-right: 27px;
+        padding-left: 32px;
+        }
+}
+
+@media screen and (min-width: 1140px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .header {
+        padding-top: 19px;
+        padding-bottom: 19px;
+        margin-bottom: 25px;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .logo-link {
+        margin-right: 237px;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-right: 24px;
+    }
+
+    .navigation-link {
+    color: #22343D;
+    font-size: 16px;
+    line-height: 1.75;
+    }
+
+    .currient-page {
+        font-weight: 600;
+    }
+
+    .nav-btn-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .nav-btn {
+        padding: 9px 24px;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+    
+    .nav-in-btn {
+        color: #173A56;
+        background-color: transparent;
+        border: 1px solid #BCD0E5;
+    }
+
+    .nav-up-btn {
+        color: #FFFFFF;
+        border: none;
+        background: #02897A;
+    }
+
+    .menu-open-btn {
+        display: none;
+    }
+
+    .theme-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background-color: #F3F3F3;
+    }
+
+    .theme-btn-icon {
+        fill: #02897A;
+    }
+
+/**---------------HERO---------------**/
+    .hero > .container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .hero-img {
+        width: 610px;
+        height: 555px;
+    }
+
+    .hero-title {
+        max-width: 465px;
+        margin-bottom: 18px;
+        font-size: 40px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .hero-text {
+        max-width: 465px;
+        margin-bottom: 45px;
+        text-align: left;
+    }
+
+    .header-buttons-thumb {
+        justify-content: start;
+    }
+}

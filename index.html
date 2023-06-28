@@ -9,6 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,13 +20,42 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <nav>
+        <nav class="nav">
           <a class="link logo-link" href="./index.html">
             <svg width="40" height="36">
               <use href="./images/icons.svg#logo"></use>
             </svg>
             <span class="logo-text">Product</span>
           </a>
+          <ul class="navigation">
+            <li>
+              <a class="link navigation-link currient-page" href="http://"
+                >Product</a
+              >
+            </li>
+            <li><a class="link navigation-link" href="http://">Pricing</a></li>
+            <li>
+              <a class="link navigation-link" href="http://">Customers</a>
+            </li>
+            <li>
+              <a class="link navigation-link" href="http://">Resources</a>
+            </li>
+          </ul>
+          <ul class="nav-btn-list">
+            <li>
+              <button class="nav-btn nav-in-btn" type="button">Sign In</button>
+            </li>
+            <li>
+              <button class="nav-btn nav-up-btn" type="button">Sign Up</button>
+            </li>
+            <li>
+              <button class="theme-btn" type="button">
+                <svg class="theme-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#theme"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
         </nav>
         <button class="menu-open-btn" type="button">
           <svg width="28" height="31">
@@ -40,18 +70,20 @@
           <svg class="hero-img" width="328" height="311">
             <use href="./images/icons.svg#hero"></use>
           </svg>
-          <h1 class="hero-title">Work at the speed of thought</h1>
-          <p class="hero-text">
-            Tools, tutorials, design and innovation experts, all in one place!
-            The most intuitive way to imagine your next user experience.
-          </p>
-          <div class="header-buttons-thumb">
-            <button class="startet-btn" type="button">Get started</button>
-            <a class="watch-link" href="">Watch the Video</a>
+          <div>
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <div class="header-buttons-thumb">
+              <button class="startet-btn" type="button">Get started</button>
+              <a class="watch-link" href="">Watch the Video</a>
+            </div>
           </div>
         </div>
       </section>
-      <section class="features">
+      <!-- <section class="features">
         <div class="container">
           <h2 class="features-title">Product was Built Specifically for You</h2>
           <ul class="features-list">
@@ -90,13 +122,15 @@
                   <use href="./images/icons.svg#sand-clock"></use>
                 </svg>
               </div>
-              <h3 class="item-title">Preference tests</h3>
-              <p class="item-text">The Myspace page defines the individual.</p>
+              <h3 class="item-title">Five second tests</h3>
+              <p class="item-text">
+                Personal choices and the overall personality of the person.
+              </p>
             </li>
           </ul>
-          <button class="sign-up-btn" type="button">SIGN UP NOW</button>
+          <button class="features-btn" type="button">SIGN UP NOW</button>
         </div>
-      </section>
+      </section> -->
       <section class="management"></section>
     </main>
   </body>
