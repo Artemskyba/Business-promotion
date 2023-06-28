@@ -114,4 +114,30 @@
     .header-buttons-thumb {
         justify-content: start;
     }
+
+/**---------------HERO---------------**/
+    .features {
+        background-image: radial-gradient(155% 197% at 50% 0, transparent 35%, #EDEDED 50%, transparent 50%); 
+        padding-bottom: 50px;
+    }
+
+    .features-title {
+        max-width: 539px;
+        padding: 0 2px;
+    }
+
+    .features-list {
+        flex-direction: row;
+        gap: 30px;
+        align-items: start;
+        margin-bottom: 50px;
+    }
+
+    .features-item {
+        align-items: start;
+    }
+
+    .item-text {
+        text-align: left;
+    }
 }
