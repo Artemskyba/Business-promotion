@@ -232,3 +232,47 @@ img {
     background-color: #02897A;
 }
 /**---------------MANAGEMENT---------------**/
+
+.advantages {
+    padding-top: 100px;
+}
+
+.advantages > .container {
+    padding-left: 31px;
+}
+
+.management-img {
+    margin-bottom: 50px;
+}
+
+.advantgates-text-field {
+    padding-left: 10px;
+}
+
+.advantgates-first-title {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.advantgates-headline {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.advantgates-title {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.advantgates-text {
+    max-width: 334px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.advantgates-text:not(:last-child) {
+    margin-bottom: 16px;
+}
